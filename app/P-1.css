@@ -1,0 +1,126 @@
+body{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+
+/* //////////////Barra///////////////// */
+@media (min-width: 768px){
+    .barra{
+        position:absolute ;
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        top: 0;
+        left: 0;
+        height: 70px;
+        width: 100vw;
+        background-color: #bfc5e5;
+        font-size: 30px;
+    }
+    h3{
+        padding: 1vw;
+        color : #000000;
+        letter-spacing: 3px;
+    }
+    ul, li{
+        display: flex;
+        padding: 1vw;
+        margin: 0;
+    }
+    li {
+        cursor: pointer;
+        transition:all .5s ease-in-out;
+        margin: 0.5em;
+        padding: 10px 15px;
+        color: #3a3a3a;
+        border-radius: 20px;
+    }
+    .activo{
+    background-color: #89baf4;
+    border-radius: 50px;
+
+    }
+
+    .elemento{
+        text-decoration: underline;
+        text-decoration-color:#000000 ;
+        transition: all 0.5s;
+    }
+    .elemento:hover{
+        text-decoration: underline;
+        text-decoration-color:#89baf4 ;
+        transition: all 0.5s;
+    }
+    .oculto{
+        display: none;
+    }
+}
+
+@media (min-width: 468px){
+    .barra{
+        position:absolute ;
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        top: 0;
+        left: 0;
+        height: 70px;
+        width: 100vw;
+        background-color: #bfc5e5;
+        font-size: 30px;
+    }
+    h3{
+        padding: 1vw;
+        color : #000000;
+        letter-spacing: 3px;
+    }
+    ul, li{
+        
+        display:flex;
+        padding: 1vw;
+        margin: 0;
+    }
+    li {
+        cursor: pointer;
+        transition:all .5s ease-in-out;
+        margin: 0.5em;
+        padding: 10px 15px;
+        color: #000000;
+        border-radius: 20px;
+    }
+    .activo{
+    background-color: #89baf4;
+    border-radius: 50px;
+
+    }
+
+    .elemento{
+        text-decoration: underline;
+        text-decoration-color:#000000 ;
+        transition: all 0.5s;
+    }
+    .elemento:hover{
+        text-decoration: underline;
+        text-decoration-color:#89baf4 ;
+        transition: all 0.5s;
+    }
+    .oculto{
+        display: flex;
+    }
+}
+.Cuerpo-principal{
+    padding:7.5% 1% 1% 1%;
+}
+
+.Cuerpo-principal ul{
+    display: block;
+    
+}
